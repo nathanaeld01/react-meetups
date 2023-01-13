@@ -26,17 +26,18 @@
   object-fit: cover;
 }
 
-.content {
-  padding: 1rem;
+.content, .actions {
+  padding: 1.5rem;
 }
 
 .content h3 {
+  margin: .75em 0px;
   font-size: 1.25rem;
 }
 
 .actions {
-  padding: 1.5rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .actions button {
