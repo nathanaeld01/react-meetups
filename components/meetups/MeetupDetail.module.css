@@ -3,7 +3,6 @@
     width: 1000px;
     height: calc(100vh - 176px);
     margin: 0 auto;
-    text-align: center;
 }
 
 .detail .image, .image img {
@@ -12,10 +11,29 @@
 
 .detail .image {
     width: 100%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .detail .info {
     position: absolute;
     bottom: 1em;
     left: 2em;
+}
+
+.info h1, .info address, .info p {
+    background: #fff;
+    width: fit-content;
+    height: 1.75em;
+    line-height: 1.75em;
+    padding: 0px 1em;
+}
+
+.info h1 {
+    margin: 0;
 }
