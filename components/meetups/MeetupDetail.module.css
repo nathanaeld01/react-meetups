@@ -1,8 +1,21 @@
 .detail {
+    position: relative;
+    width: 1000px;
     height: calc(100vh - 176px);
+    margin: 0 auto;
     text-align: center;
 }
 
-.detail img {
-    height: 100%;
+.detail .image, .image img {
+    height: inherit;
+}
+
+.detail .image {
+    width: 100%;
+}
+
+.detail .info {
+    position: absolute;
+    bottom: 1em;
+    left: 2em;
 }
