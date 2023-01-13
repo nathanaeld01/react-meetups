@@ -1,15 +1,15 @@
 import classes from "./MeetupDetail.module.css";
 
-function MeetupDetail({ image, title, address, description }) {
+function MeetupDetail(props) {
     return (
         <section className={classes.detail}>
             <div className={classes.image}>
-                <img src={image} alt={title} />
+                <img src={props.image} alt={title} />
             </div>
             <div className={classes.info}>
-                <h1>{title}</h1>
-                <address>{address}</address>
-                <p>{description}</p>
+                <h1>{props.title}</h1>
+                <address>{props.address}</address>
+                <p>{props.description}</p>
             </div>
         </section>
     )
