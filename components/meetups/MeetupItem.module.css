@@ -1,7 +1,3 @@
-.item {
-  margin: 1rem 0;
-}
-
 .item .content-wrap {
   position: absolute;
   display: flex;
@@ -16,6 +12,7 @@
 
 .image {
   width: 100%;
+  height: 250px;
   overflow: hidden;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
