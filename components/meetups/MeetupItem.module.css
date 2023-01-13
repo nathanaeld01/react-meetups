@@ -9,6 +9,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 1.25em;
   background: linear-gradient(0deg, rgb(0 0 0 / 50%), transparent);
   font-size: 12px;
   color: #fff;
@@ -31,12 +32,9 @@
   object-position: center center;
 }
 
-.content, .actions {
-  padding: .75em;
-}
-
 .content h3 {
-  margin: .75em 0px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
   font-size: 1.25rem;
 }
 
