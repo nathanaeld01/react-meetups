@@ -42,7 +42,11 @@
     margin: 0;
 }
 
+.info address {
+    margin-top: 1em;
+}
+
 .info p {
     height: auto;
-    padding: 1.75em 0px;
+    padding: 0.5em 1em;
 }
